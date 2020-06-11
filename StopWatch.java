@@ -21,7 +21,7 @@ public class StopWatch {
     /**
      * 타이머를 멈추고 걸린 시간 값을 저장합니다.
      */
-    public static void Stop()
+    public static void Stop()  // 타이머 정지
     {
         secToHHMMSS(((int)System.currentTimeMillis() / 1000) - oldTime);
     }
